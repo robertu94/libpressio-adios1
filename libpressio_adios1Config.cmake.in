@@ -1,0 +1,9 @@
+@PACKAGE_INIT@
+
+include("${CMAKE_CURRENT_LIST_DIR}/libpressio_adios2Targets.cmake")
+
+find_package(ADIOS2 REQUIRED)
+find_package(MPI REQUIRED)
+find_package(LibPressio REQUIRED)
+find_package(std_compat REQUIRED)
+check_required_components(libpressio_adios2)
