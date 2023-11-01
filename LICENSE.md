@@ -1,4 +1,4 @@
-LibPressio ADIOS-2 Plugin
+LibPressio ADIOS-1 Plugin
 Copyright © 2022 Robert Underwood
 All rights reserved.
 
